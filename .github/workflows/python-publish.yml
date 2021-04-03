@@ -7,7 +7,7 @@ on:
   release:
     types: [created]
   schedule:
-  - cron: "38 17 * * 1-5"
+  - cron: "35 6 * * *"
 
 jobs:
   deploy:
